@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>About Me</title>
+<style>
+body {
+	background-color: #B5B5B5;
+	color: black;
+	font-family: Arial;
+}
+#menu {
+	list-style-type: none;
+	margin: 0 auto;
+	padding: 0;
+	overflow: hidden;
+	background-color: black;
+	text-align: center;
+}
+#menu li {
+	float: left;
+}
+#menu li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 16px;
+	text-decoration: none;
+}
+#menu li a:hover {
+	background-color: #1F1F1F;
+}
+h1 {
+	text-align: center;
+}
+#container {
+	margin: 0 auto;
+	text-align: center;
+}
+#leftside {
+	float: left;
+	width: 25%;
+}
+#middle {
+	float: left;
+	width: 50%;
+}
+#rightside {
+	float: left;
+	width: 25%;
+}
+.side {
+	background-color: black;
+	color: white;
+}
+.card {
+	background-color: #B5B5B5;
+	padding: 10px;
+	border: 1px solid black;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+footer {
+	clear: both;
+	display: block;
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+#ctapic {
+	margin-left: 4px;
+}
+</style>
+</head>
+<body>
+<ul id="menu">
+		<li><a href="http://codingtemple.com/">Coding Temple</a></li>
+		<li><a href="https://www.w3schools.com/html/default.asp">Learn HTML</a></li>
+		<li><a href="https://www.w3schools.com/css/default.asp">Learn CSS</a></li>
+		<li style="float: right"><a href="https://www.facebook.com/JR.Oremus">Facebook</a></li>
+</ul>
+<h1> My Introduction Webpage</h1>
+
+<div id="container">
+	<div id="leftside" class="side">
+		<h2>James Oremus</h2>
+		<img src="fbphoto.jpg" alt="James Oremus Picture">
+		<p>Age: 27
+		<br>
+		Birthday: December 8
+		<br>
+		Resides: Chicago, IL
+		<br>
+		Neighborhood: Lakeview
+		</p>
+		<p id="bio">
+		I was born in the town of Tinley Park, which is located in the south suburbs of Chicago. After graduating from Victor J. Andrew High School, I enrolled
+		at Illinois State University. After changing majors from Communications to Political Science, I transferred over to DePaul University in Chicago. After
+		graduating with my Bachelor's Degree I continued working at Let's Play Entertainment as an assistant manager. In January of 2018 I enrolled at Coding
+		Temple.
+		</p>
+	</div>
+	<div id="middle">
+		<div class="card">
+			<h2>Why Coding Temple?</h2>
+			<p>After I graduated from DePaul University with my Political Science degree I worked as an assistant manager for a few years at a place called
+			Lets Play Entertainment. The work was fine, but eventually I wanted to move into a career as opposed to what I viewed as a job. Like countless
+			others before me I found out that the job market can be brutal out there. Findings jobs that I was qualified for that was more than a sales job
+			was difficult. No offense to people in sales, but that path isn't for me. I wanted to do something that would keep me motivated and looking
+			forward to the future, and I wasn't finding it on any of the interviews I was going on or the jobs I was finding.
+			<br></br>
+			Over the holidays a family member had asked me why I never considered doing coding work before. I'm big into technology and did in fact take a
+			course in college that taught me some basic HTML and CSS, but that obviously wasn't enough knowledge to get a job. My relative told me about
+			bootcamps and specifically mentioned hearing about Coding Temple. I never knew this was an option until then, and I immediately went home and
+			researched. I enjoyed doing my experiences with coding during college and I always was curious about learning more, so I applied for Coding
+			Temple.
+			<br></br>
+			I'm looking for a career where I can see the fruits of my labor and where I'm not just going to be doing cold calls all day and end up being
+			miserable. I want to work with technology and be able to be a valuable asset to an employer. Computers aren't going anywhere, and I'm excited
+			to learn a skill that will be immensly valuable in the world today. Although the excitement comes with a healthy dose of nerves, I can't wait
+			to get started on the next chapter of my life.
+			</p>
+		</div>
+		<br>
+		<div class="card">
+			<h3>Hobbies and Interests</h3>
+			<p>In my spare time I love watching movies. I've always been one to view film as an artform and not just as pure mindless entertainment. I end
+			up spending way too much money on going to the theater every year, but I end up doing it every year so I can't complain too much. There's
+			something fascinating about watching the actors play out the director's vision of a screenwriter's words and still being able to make your own
+			interpretations afterwards.
+			<br></br>
+			Outside of that, I'm a big sports fan. I watch a good amount of everything, but my top three are probably baseball, soccer, and hockey. Baseball
+			is easily my favorite sports, and I spend a good amount of time in the summer at White Sox games. In addition to going to games, I'm one of
+			those stat nerds, so I spend a solid portion of time going over advanced statistics and plotting out ideal lineups.
+			<br></br>
+			I do play video games, pretty much primarily on Xbox. I'm not some hardcore gamer or anything, but it's nice to wind down with some friends and
+			mess around to wind down after a long day. Outside of that I enjoy a nice glass of beer and hanging out with my friends.
+			</p>
+			<img src="baseball.jpg" alt="White Sox Baseball Game" width="624px" height="351px">
+
+		</div>
+	</div>
+	<div id="rightside" class="side">
+		<p>How will you commute to Coding Temple?</p>
+		<form action="/action_page.php">
+			<input type="checkbox" name="transport1" value="Rail">CTA Rail
+			<br></br>
+			<input type="checkbox" name="transport2" value="Bus">CTA Bus
+			<br></br>
+			<input type="checkbox" name="transport3" value="Rideshare">Ride Share
+			<br></br>
+			<input type="checkbox" name="transport4" value="Car">Drive Myself
+			<br></br>
+			<input type="checkbox" name="transport5" value="Walk">Walk
+			<br></br>
+			<input type="checkbox" name="transport6" value="Teleport">Teleport
+			<br></br>
+			<input type="checkbox" name="transport7" value="Other">Other
+			<br></br>
+			<input type="submit">
+		</form>
+		<br></br>
+		<img src="cta.jpg" alt="Sheridan CTA Sign" width="320px" height="427px" id="ctapic">
+		<br></br>
+	</div>
+
+</div>
+
+<footer>
+  <p>Created by: James Oremus</p>
+  <p>Contact information: <a href="mailto:jroremus@gmail.com">Email Me</a>.</p>
+</footer>
+</body>
+</html>
